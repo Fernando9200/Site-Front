@@ -9,6 +9,7 @@ export default function UserHeader() {
             </figure>
             <div className="row justify-content-center">
                 <h1>Fernando Carretto</h1>
+                <h10 className="row justify-content-center">Software Developer</h10>
             </div>
         </div>
     )

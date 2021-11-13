@@ -53,3 +53,14 @@ code {
 .container  .figure img{
   border-radius: 50% !important;
 }
+
+.btn-social {
+  background-color: black;
+  color: white;
+  border-radius: 50%;
+}
+
+.btn-social:hover {
+  background-color: white;
+  color: black;
+}
