@@ -4,7 +4,7 @@ export default function UserHeader() {
     return (
         <div className="row header-user justify-content-center">
             <figure className="figure">
-                <img src="https://i.mmo.cm/is/image/mmoimg/mw-product-zoom/revolutionist-professional-beards-made-of-real-hair--mw-103722-1-color.jpg" 
+                <img src="https://i.ibb.co/qRQyJvM/Foto-perfil.jpg" 
                 className="figure-img img-fluid rounded" alt="..." />
             </figure>
             <div className="row justify-content-center">
