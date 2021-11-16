@@ -16,7 +16,7 @@ export default function Gaveta({keyword}) {
                     <ul>
                         {result && result.map(res => {
                             return (
-                                <li key={res._id}>
+                                <li className="margin" key={res._id}>
                                     <h2>{res.title}</h2>
                                     {res.body && res.body.map(body => {
                                         return (
