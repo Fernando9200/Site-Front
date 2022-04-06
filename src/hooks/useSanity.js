@@ -1,5 +1,5 @@
-import React from 'react'
-import { useEffect, useState } from 'react'
+import React from 'react';
+import { useEffect, useState } from 'react';
 
 export default function useSanity(keyword) {
     const [data, setData] = useState(null);
@@ -7,7 +7,7 @@ export default function useSanity(keyword) {
     useEffect(() => {
         const query = `*[ _type == "${keyword}" ]`;
         const encodedQuery = encodeURIComponent(query)
-        const id = 'b547fsql'
+        const id = 'njp2igeq'
         const url = `https://${id}.api.sanity.io/v2021-06-07/data/query/production?query=${encodedQuery}`
 
         fetch(url)
